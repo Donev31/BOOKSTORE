@@ -15,5 +15,6 @@ namespace BookStore.DL.Interfaces
         public List<Book> GetAllBooks();
 
         public List<Book> GetAllBooksByAuthorId(int id);
+        void GetBooksByAuthorRequest(int authorId);
     }
 }

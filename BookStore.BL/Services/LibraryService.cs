@@ -17,6 +17,21 @@ namespace BookStore.BL.Services
             _bookService = bookService;
         }
 
+        public IEnumerable<object> CheckBookCount(int input)
+        {
+            throw new NotImplementedException();
+        }
+
+        public object GetAllBooksByAuthorAfterReleaseDate(global::BookStore.Models.Request.GetBooksByAuthorRequest request)
+        {
+            throw new NotImplementedException();
+        }
+
+        public object GetBooksByAuthorAfterReleaseDate(global::BookStore.Models.Request.GetBooksByAuthorRequest request)
+        {
+            throw new NotImplementedException();
+        }
+
         public GetBooksByAuthorResponse? GetBooksByAuthor(GetBooksByAuthorRequest request)
         {
             var books = _bookService.

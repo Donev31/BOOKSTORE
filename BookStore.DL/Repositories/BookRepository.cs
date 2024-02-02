@@ -53,5 +53,10 @@ namespace BookStore.DL.Repositories
 
             return result;
         }
+
+        public void GetBooksByAuthorRequest(int authorId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
